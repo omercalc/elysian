@@ -1,0 +1,93 @@
+.menu{
+  background: url(../../../Texture.png);
+}
+
+.menu-conte {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.menu-item {
+  margin-bottom: 40px;
+  width: 300px;
+  height: 330px;
+  border: 1px solid #fce676;
+  border-radius: 10px;
+  background: url(../../../Texture.png);
+  box-shadow: 1px 0px 5px 5px rgb(252,230,118);
+}
+
+.menu-img {
+  width: 230px;
+  height: 150px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.menu-img img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-top: -30px;
+}
+
+.menu-img h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fce676;
+  margin-top: 20px;
+}
+
+.menu-img h3::after {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 2px;
+  background-color: #e00006;
+  margin: 10px auto;
+}
+
+.f-of-know {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.f-of-know h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fce676;
+  margin-top: 75px;
+}
+.f-of-know h3::after {
+  content: "";
+  display: block;
+  width: 90px;
+  height: 2px;
+  background-color: #e00006;
+  margin: 10px auto;
+}
+
+.menu-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fce676;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  margin: auto;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.menu-button:hover {
+  background-color: #f4c842; 
+  transform: scale(1.05); 
+}
+

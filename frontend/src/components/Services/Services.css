@@ -1,0 +1,72 @@
+.services {
+  width: 100%;
+  position: relative;
+  background: url("../../../Texture.png");
+}
+
+.hiz-conta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hiz {
+  width: 40%;
+}
+
+.restaurant {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.res-img {
+  padding: 0 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.res-img img {
+  width: 100%;
+  height: 80%;
+  border-radius: 25px;
+  object-fit: contain;
+}
+
+.res-text {
+  color: #888880;
+  padding: 0 4rem;
+}
+
+.res-text h1 {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  padding-bottom: 50px;
+}
+
+.res-text p {
+  width: 80%;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.ser-buton {
+  margin-top: 2rem;
+  width: 130px;
+  height: 50px;
+  color: white;
+  background: #ffa500;
+  margin-top: 20px;
+  border-radius: 25px;
+  font-size: 1.1rem;
+}
+
+.ser-buton:hover {
+  background: #ff4500;
+  transition: 1s;
+}

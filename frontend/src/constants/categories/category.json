@@ -1,0 +1,47 @@
+[
+  {
+    "categoryId": "snacks",
+    "name": "Atıştırmalıklar",
+    "image": "../../menu/atistirmalik.jpg"
+  },
+  {
+    "categoryId": "soup",
+    "name": "Çorbalar",
+    "image": "../../menu/corba.webp"
+  },
+  {
+    "categoryId": "seafood",
+    "name": "Deniz Ürünleri",
+    "image": "../../menu/deniz-urunleri.jpg"
+  },
+  {
+    "categoryId": "dietfood",
+    "name": "Diet Yemekler",
+    "image": "../../menu/diet-food.webp"
+  },
+  {
+    "categoryId": "fastfood",
+    "name": "Fast Food",
+    "image": "../../menu/fast-food.jpg"
+  },
+  {
+    "categoryId": "drinks",
+    "name": "İçecekler",
+    "image": "../../menu/icecekler.webp"
+  },
+  {
+    "categoryId": "vegan",
+    "name": "Vegan Yemekler",
+    "image": "../../menu/vegan.webp"
+  },
+  {
+    "categoryId": "salad",
+    "name": "Salatalar",
+    "image": "../../menu/salatalar.jpg"
+  },
+  {
+    "categoryId": "sweets",
+    "name": "Tatlılar",
+    "image": "../../menu/tatlilar.webp"
+  }
+]
